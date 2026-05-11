@@ -49,7 +49,6 @@ def main(page: ft.Page):
         volume=1,
         balance=0,
     )
-    page.services.append(audio_player)
 
     title_text = ft.Text(size=22, weight="bold")
     artist_text = ft.Text(size=16)
